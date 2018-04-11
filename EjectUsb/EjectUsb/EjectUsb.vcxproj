@@ -183,6 +183,7 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="DeviceManager.h" />
     <ClInclude Include="EjectUsb.h" />
     <ClInclude Include="EjectUsbDlg.h" />
     <ClInclude Include="Resource.h" />
@@ -190,6 +191,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="DeviceManager.cpp" />
     <ClCompile Include="EjectUsb.cpp" />
     <ClCompile Include="EjectUsbDlg.cpp" />
     <ClCompile Include="stdafx.cpp">
